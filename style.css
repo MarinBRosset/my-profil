@@ -1,0 +1,133 @@
+h3, h1 { 
+	color: rgb(0,0,150);
+	font-family: "Crimson Text",serif ;	 
+}
+
+h5{
+	font-size: 105%;
+	color: rgb(0,0,150);
+}
+
+p {
+	font-family: "Crimson Text",serif ;
+}
+
+body { 
+	background : rgb(238, 231, 218);
+	text-size-adjust:auto;
+}
+
+/* hover --> quand passe la souris */
+
+.logo-social:hover{
+	color : rgb(150, 150, 255);
+	font-size: 250%;
+
+}
+
+img {
+	border-radius: 50%;
+}
+
+/* bouton bleu*/
+.btn-blue {
+    background-color: rgb(0, 0, 150);
+    color: rgb(238, 231, 218);
+    margin: 50px 50px;
+    width: auto;
+    padding: 5px 20px;
+    border-radius: 3px;
+	border: 1px solid black;
+}
+.btn-blue:hover {
+    background-color: rgb(150, 150, 255);
+    color: rgb(238, 231, 218);
+    font-size: 120%;
+}
+
+
+.logo-social {
+	font-size: 200%;
+
+}
+
+
+.container-langues {
+	width: auto;
+	margin: 20px auto;
+	border: 1px solid lightgray;
+	padding-right: 25px;
+	border-radius: 4px;
+	box-shadow: 0 1px 3px rgb(0,0,0);
+	padding-left: 25px;
+	background-color : rgba(255, 255, 255,0.3);
+}
+
+.container-experiences{
+	width: auto;
+	margin: 20px auto;
+	border: 1px solid lightgray;
+	padding-right: 25px;
+	border-radius: 4px;
+	box-shadow: 0 1px 3px rgb(0,0,0);
+	padding-left: 25px;
+	background-color : rgba(255, 255, 255,0.3);
+}
+
+.container-hobbies{
+	width: auto;
+	margin: 20px auto;
+	border: 1px solid lightgray;
+	padding-right: 25px;
+	border-radius: 4px;
+	box-shadow: 0 1px 3px rgb(0,0,0);
+	padding-left: 25px;
+	background-color : rgba(255, 255, 255,0.3);
+}
+
+.container-reseaux{
+	text-align: center;
+	font-size: 30px;
+}
+
+.container-reseaux a{
+	text-decoration: none;
+}
+
+#reseaux-titre{
+	text-align: center;
+	margin-top: 50px ;
+}
+
+.container{
+	align-content: flex ;
+	border: ;
+}
+
+#titre-profil{
+	font-size: 20px;
+}
+
+#photo-audit{
+	border-radius: 10px;
+	width:150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 50px;
+	margin-left: 12px;
+}
+
+.experience-1{
+	width: auto;
+	margin: 20px auto;
+	border: 1px solid lightgray;
+	padding-right: 25px;
+	border-radius: 4px;
+	box-shadow: 0 1px 3px rgb(0,0,0);
+	padding-left: 25px;
+	background-color : rgba(255, 255, 255,0.3);
+}
+
+
+
+
