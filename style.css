@@ -1,3 +1,5 @@
+
+/* font */
 h3, h1 { 
 	color: rgb(0,0,150);
 	font-family: "Crimson Text",serif ;	 
@@ -27,6 +29,7 @@ body {
 
 img {
 	border-radius: 50%;
+	border:0.5px solid black;
 }
 
 /* bouton bleu*/
@@ -35,14 +38,20 @@ img {
     color: rgb(238, 231, 218);
     margin: 50px 50px;
     width: auto;
-    padding: 5px 20px;
+    padding: 1px 20px;
     border-radius: 3px;
-	border: 1px solid black;
+	border: 0.5px solid black;
+	text-align: center;
 }
 .btn-blue:hover {
     background-color: rgb(150, 150, 255);
     color: rgb(238, 231, 218);
     font-size: 120%;
+    text-align: center;
+}
+
+#explorer {
+	text-align: center;
 }
 
 
@@ -108,11 +117,15 @@ img {
 	font-size: 20px;
 }
 
+
+/* Seconde page */ 
+
+
 #photo-audit{
 	border-radius: 10px;
 	width:150px;
 	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	margin-right: 50px;
 	margin-left: 12px;
 }
@@ -128,6 +141,36 @@ img {
 	background-color : rgba(255, 255, 255,0.3);
 }
 
+.experience-1-detail {
+	display: flex;
+	flex: 10;
+}
+
+.experience-1-detail:nth-of-type(3) {
+  flex: 2;
+}
 
 
 
+/* Récursif */
+
+@media (max-width: 768px) {
+    .container{
+    	width: 400px;
+    }
+    h1 {
+    	margin: 0px 100px;
+    }
+}
+
+@media (max-width: 570px) {
+    h1 {
+    	margin: 0px 60px;
+    }
+}
+
+@media (max-width: 260px) {
+   .container{
+   	width: 240px;
+   } 
+}
